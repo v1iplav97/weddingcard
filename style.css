@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f1f1;
+    font-family: 'Arial', sans-serif;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+.card h1 {
+    color: #c0392b;
+}
+.card h2{
+    color: cadetblue;
+}
+.card p {
+    font-size: 18px;
+    color: #555;
+}
+.card .date {
+    font-size: 22px;
+    color: #d35400;
+    font-weight: bold;
+}
+.card .location {
+    font-style: italic;
+}
+
+.card:hover{
+    background-color: rgb(200, 255, 0);
+    
+}
